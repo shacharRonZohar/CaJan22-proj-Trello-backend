@@ -65,10 +65,11 @@ async function add(board) {
 
 async function update(board) {
   try {
-    var id = ObjectId(board._id)
+    const id = ObjectId(board._id)
     delete board._id
     const collection = await dbService.getCollection('board')
     await collection.updateOne({ _id: id }, { $set: { ...board } })
+    board._id = id
     return board
   } catch (err) {
     logger.error(`cannot update board ${board._id}`, err)
