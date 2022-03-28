@@ -1,3 +1,3 @@
 module.exports = {
-  dbURL: 'mongodb://localhost:27017',
+  dbURL: 'mongodb+srv://PurpleAlpaka:ToY2021123@purplealpakacluster.ucxdh.mongodb.net/twello_db?retryWrites=true&w=majority',
 }
