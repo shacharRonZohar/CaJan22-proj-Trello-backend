@@ -1,5 +1,5 @@
 const logger = require('../../services/logger.service')
-const boardService = require('./board.servicece')
+const boardService = require('./board.service')
 
 module.exports = {
   getBoards,

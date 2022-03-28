@@ -5,13 +5,13 @@ module.exports = {
   saveToFile,
 }
 
-function makeId(length = 5) {
-  var txt = ''
-  var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+function makeId(startSymb = '', length = 13) {
+  let text = startSymb
+  const possible = '0123456789'
   for (let i = 0; i < length; i++) {
-    txt += possible.charAt(Math.floor(Math.random() * possible.length))
+    text += possible.charAt(Math.floor(Math.random() * possible.length))
   }
-  return txt
+  return text
 }
 
 function saveToFile(path, entities) {
