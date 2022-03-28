@@ -7,8 +7,8 @@ module.exports = {
 }
 
 // Database Name - enter your db
-const dbName = process.env.NODE_ENV === 'production' ? 'misterToyDB' : 'mister-toy'
-
+// const dbName = process.env.NODE_ENV === 'production' ? 'misterToyDB' : 'mister-toy'
+const dbName = 'twello_db'
 
 var dbConn = null
 
