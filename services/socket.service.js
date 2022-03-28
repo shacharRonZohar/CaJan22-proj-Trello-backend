@@ -14,40 +14,54 @@ function connectSockets(http, session) {
         socket.on('disconnect', socket => {
             console.log('Someone disconnected')
         })
-        socket.on('chat topic', topic => {
-            if (socket.myTopic === topic) return
-            if (socket.myTopic) {
-                socket.leave(socket.myTopic)
+        socket.on('watch-board', _id => {
+            if (socket.currBoard === _id) return
+            if (socket.currBoard) {
+                socket.leave(socket.currBoard)
             }
-            socket.join(topic)
-            socket.myTopic = topic
+            socket.join(_id)
+            socket.currBoard = _id
         })
-        socket.on('chat newMsg', msg => {
-            console.log('Emitting Chat msg', msg)
-            // emits to all sockets:
-            // gIo.emit('chat addMsg', msg)
-            // emits only to sockets in the same room
-            gIo.to(socket.myTopic).emit('chat addMsg', msg)
+
+        socket.on('board-updated', board => {
+            console.log('emitting new board')
+            gIo.to(socket.currBoard).emit('board-update', board)
         })
-        socket.on('user-watch', userId => {
-            socket.join('watching:' + userId)
-        })
-        socket.on('set-user-socket', userId => {
-            logger.debug(`Setting (${socket.id}) socket.userId = ${userId}`)
-            socket.userId = userId
-        })
-        socket.on('unset-user-socket', () => {
-            delete socket.userId
-        })
-        let timer = null
-        socket.on('chat-userTyping', fullname => {
-            // Maybe TODO: use actual debounce
-            clearTimeout(timer)
-            setTimeout(() => {
-                gIo.to(socket.myTopic).emit('user-is-typing', '')
-            }, 3000)
-            gIo.to(socket.myTopic).emit('user-is-typing', fullname)
-        })
+
+        // socket.on('chat topic', topic => {
+        //     if (socket.myTopic === topic) return
+        //     if (socket.myTopic) {
+        //         socket.leave(socket.myTopic)
+        //     }
+        //     socket.join(topic)
+        //     socket.myTopic = topic
+        // })
+        // socket.on('chat newMsg', msg => {
+        //     console.log('Emitting Chat msg', msg)
+        //     // emits to all sockets:
+        //     // gIo.emit('chat addMsg', msg)
+        //     // emits only to sockets in the same room
+        //     gIo.to(socket.myTopic).emit('chat addMsg', msg)
+        // })
+        // socket.on('user-watch', userId => {
+        //     socket.join('watching:' + userId)
+        // })
+        // socket.on('set-user-socket', userId => {
+        //     logger.debug(`Setting (${socket.id}) socket.userId = ${userId}`)
+        //     socket.userId = userId
+        // })
+        // socket.on('unset-user-socket', () => {
+        //     delete socket.userId
+        // })
+        // let timer = null
+        // socket.on('chat-userTyping', fullname => {
+        //     // Maybe TODO: use actual debounce
+        //     clearTimeout(timer)
+        //     setTimeout(() => {
+        //         gIo.to(socket.myTopic).emit('user-is-typing', '')
+        //     }, 3000)
+        //     gIo.to(socket.myTopic).emit('user-is-typing', fullname)
+        // })
 
     })
 }
@@ -68,7 +82,7 @@ async function emitToUser({ type, data, userId }) {
 }
 
 // Send to all sockets BUT not the current socket 
-async function broadcast({ type, data, room = null, userId }) {
+async function broadcast({ type, data, board = null, userId }) {
     console.log('BROADCASTING', JSON.stringify(arguments))
     const excludedSocket = await _getUserSocket(userId)
     if (!excludedSocket) {
@@ -77,11 +91,11 @@ async function broadcast({ type, data, room = null, userId }) {
         return
     }
     logger.debug('broadcast to all but user: ', userId)
-    if (room) {
-        excludedSocket.broadcast.to(room).emit(type, data)
-    } else {
-        excludedSocket.broadcast.emit(type, data)
-    }
+    // if (room) {
+    excludedSocket.broadcast.to(board).emit(type, data)
+    // } else {
+    //     excludedSocket.broadcast.emit(type, data)
+    // }
 }
 
 async function _getUserSocket(userId) {
