@@ -687,3 +687,82 @@
 3/28/2022, 3:35:33 PM - INFO - Server is running on port: 3030
 3/28/2022, 4:35:55 PM - INFO - Server is running on port: 3030
 3/28/2022, 4:37:38 PM - INFO - Server is running on port: 3030
+28/03/2022, 18:42:41 - DEBUG - auth.service - login with username: asd
+28/03/2022, 18:42:41 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:43:19 - DEBUG - auth.service - login with username: asd
+28/03/2022, 18:43:20 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:44:04 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:44:04 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:44:21 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:44:21 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:45:17 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:45:17 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:45:50 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:45:51 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:46:38 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:46:38 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:47:35 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:47:35 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:47:46 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:47:46 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:47:54 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:47:54 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:48:07 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:48:07 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:50:36 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:50:36 - ERROR - Failed to Login Invalid username or password
+28/03/2022, 18:53:32 - DEBUG - auth.service - signup with username: guest, fullname: Guest
+28/03/2022, 18:53:32 - DEBUG - auth.route - new account created: {"username":"guest","password":"$2b$10$k9Y0BCy/uezx67jpNUoKrObUL/szTNpU/nlkx0NFybuhfRuGMTm1y","fullname":"Guest","isAdmin":false,"_id":"6241d9fc317e57917ee6b48b"}
+28/03/2022, 18:53:32 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:53:32 - ERROR - Failed to signup Invalid username or password
+28/03/2022, 18:55:53 - INFO - Server is running on port: 3030
+28/03/2022, 18:55:59 - DEBUG - auth.service - signup with username: guest, fullname: Guest
+28/03/2022, 18:56:00 - DEBUG - auth.route - new account created: {"username":"guest","password":"$2b$10$LFNCiOqpjy8tC/LVFcZRSewCndYkLsfhQ00DieDmlcWDE2LCoulx2","fullname":"Guest","isAdmin":false,"_id":"6241da9001fb06d0742a1777"}
+28/03/2022, 18:56:00 - DEBUG - auth.service - login with username: guest
+28/03/2022, 18:56:10 - INFO - Server is running on port: 3030
+28/03/2022, 18:56:14 - DEBUG - auth.service - login with username: guest
+28/03/2022, 19:02:39 - DEBUG - auth.service - signup with username: RZ_Shachar, fullname: 
+28/03/2022, 19:02:39 - ERROR - Failed to signup fullname, username and password are required!
+28/03/2022, 19:03:38 - DEBUG - auth.service - signup with username: PurpleAlpaka, fullname: 
+28/03/2022, 19:03:38 - ERROR - Failed to signup fullname, username and password are required!
+28/03/2022, 19:04:04 - DEBUG - auth.service - signup with username: PurpleAlpaka, fullname: 
+28/03/2022, 19:04:04 - ERROR - Failed to signup fullname, username and password are required!
+28/03/2022, 19:04:17 - DEBUG - auth.service - signup with username: PurpleAlpaka, fullname: 
+28/03/2022, 19:04:17 - ERROR - Failed to signup fullname, username and password are required!
+28/03/2022, 19:04:34 - DEBUG - auth.service - signup with username: PurpleAlpaka, fullname: 
+28/03/2022, 19:04:34 - ERROR - Failed to signup fullname, username and password are required!
+28/03/2022, 19:05:02 - DEBUG - auth.service - signup with username: PurpleAlpaka, fullname: Shachar Ron Zohar
+28/03/2022, 19:05:02 - DEBUG - auth.route - new account created: {"username":"PurpleAlpaka","password":"$2b$10$xayECIHSXGlNvD3enESvO.qiEmbLq/arQUiPqwxKbmGwFYr0SV1lu","fullname":"Shachar Ron Zohar","isAdmin":false,"_id":"6241dcae0aca78c88661e4c5"}
+28/03/2022, 19:05:02 - DEBUG - auth.service - login with username: PurpleAlpaka
+28/03/2022, 19:10:48 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:11:21 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:11:23 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:11:27 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:11:37 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:12:37 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:13:09 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:13:15 - DEBUG - auth.service - login with username: PurpleAlpaka
+28/03/2022, 19:13:56 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 19:14:02 - DEBUG - auth.service - login with username: PurpleAlpaka
+28/03/2022, 19:14:57 - DEBUG - auth.service - login with username: PurpleAlpaka
+28/03/2022, 20:11:31 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 20:16:20 - INFO - Req from: Shachar Ron Zohar
+28/03/2022, 20:18:55 - DEBUG - auth.service - login with username: PurpleAlpaka
+28/03/2022, 20:19:10 - DEBUG - auth.service - signup with username: PurpleAlpaka1, fullname: 
+28/03/2022, 20:19:10 - ERROR - Failed to signup fullname, username and password are required!
+28/03/2022, 20:19:23 - DEBUG - auth.service - signup with username: PurpleAlpaka1, fullname: purple
+28/03/2022, 20:19:23 - DEBUG - auth.route - new account created: {"username":"PurpleAlpaka1","password":"$2b$10$shI/TbgFTi.Ckq3EeTl4JeY.yvsEdvzDiplWV7vlxNYuKnl/HpaxK","fullname":"purple","isAdmin":false,"_id":"6241ee1b0aca78c88661e4c6"}
+28/03/2022, 20:19:23 - DEBUG - auth.service - login with username: PurpleAlpaka1
+28/03/2022, 20:23:05 - INFO - Req from: purple
+28/03/2022, 20:23:21 - INFO - Req from: purple
+28/03/2022, 20:24:14 - INFO - Req from: purple
+28/03/2022, 20:24:17 - DEBUG - auth.service - login with username: PurpleAlpaka1
+28/03/2022, 20:24:55 - INFO - Req from: purple
+28/03/2022, 20:25:33 - INFO - Req from: purple
+28/03/2022, 20:25:42 - INFO - Req from: purple
+28/03/2022, 20:26:19 - INFO - Req from: purple
+28/03/2022, 20:26:31 - DEBUG - auth.service - login with username: PurpleAlpaka1
+28/03/2022, 20:26:38 - INFO - Req from: purple
+28/03/2022, 20:29:06 - DEBUG - auth.service - login with username: PurpleAlpaka1
+28/03/2022, 20:33:40 - INFO - Server is running on port: 3030
+28/03/2022, 20:33:43 - INFO - Server is running on port: 3030
