@@ -926,3 +926,5 @@
 29/03/2022, 19:35:26 - ERROR - Failed to signup Error: data and hash arguments required
 29/03/2022, 19:36:24 - INFO - Server is running on port: 3030
 29/03/2022, 19:36:37 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com
+29/03/2022, 19:59:51 - INFO - Server is running on port: 3030
+29/03/2022, 19:59:57 - INFO - Server is running on port: 3030

@@ -8,10 +8,8 @@ module.exports = {
 }
 
 async function login(username, password) {
-  console.log(username, password)
   logger.debug(`auth.service - login with username: ${username}`)
   const user = await userService.getByUsername(username)
-  console.log(user)
   if (!user) return Promise.reject('Invalid username or password')
   // TODO: un-comment for real login
   const match = await bcrypt.compare(password, user.password)
