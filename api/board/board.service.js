@@ -13,8 +13,8 @@ module.exports = {
 
 async function query(filterBy) {
   try {
-    // const criteria = _buildCriteria(filterBy)
-    const criteria = {}
+    const criteria = _buildCriteria(filterBy)
+    // const criteria = {}
 
     const collection = await dbService.getCollection('board')
     let boards = await collection.find(criteria).toArray()
@@ -80,19 +80,28 @@ async function update(board) {
 function _buildCriteria(filterBy) {
   const criteria = {}
 
+  // by user
+  console.log(filterBy)
+  const regex = new RegExp(filterBy[0])
+  // console.log(regex)
+  console.log(regex)
+  criteria.members = {
+    $regex: regex
+  }
+
   // by name
-  const regex = new RegExp(filterBy.name, 'i')
-  criteria.name = { $regex: regex }
+  // const regex = new RegExp(filterBy.name, 'i')
+  // criteria.name = { $regex: regex }
 
-  // filter by inStock
-  if (filterBy.inStock) {
-    criteria.inStock = { $eq: JSON.parse(filterBy.inStock) }
-  }
+  // // filter by inStock
+  // if (filterBy.inStock) {
+  //   criteria.inStock = { $eq: JSON.parse(filterBy.inStock) }
+  // }
 
-  // filter by labels
-  if (filterBy.labels?.length) {
-    criteria.labels = { $in: filterBy.labels }
-  }
+  // // filter by labels
+  // if (filterBy.labels?.length) {
+  //   criteria.labels = { $in: filterBy.labels }
+  // }
 
   return criteria
 }
@@ -101,7 +110,10 @@ function _getDemoData() {
   return [{
     'title': 'Trello dev proj',
     'createdAt': Date.now(),
-    'createdBy': {},
+    'createdBy': { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' },
+    'members': [
+      { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' }
+    ],
     'style': {
       'imgUrl': '../assets/imgs/boardBackground/1.jpg'
     },
