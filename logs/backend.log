@@ -766,3 +766,33 @@
 28/03/2022, 20:29:06 - DEBUG - auth.service - login with username: PurpleAlpaka1
 28/03/2022, 20:33:40 - INFO - Server is running on port: 3030
 28/03/2022, 20:33:43 - INFO - Server is running on port: 3030
+29/03/2022, 09:33:46 - INFO - Server is running on port: 3030
+29/03/2022, 10:41:59 - INFO - Server is running on port: 3030
+29/03/2022, 10:42:22 - INFO - Server is running on port: 3030
+29/03/2022, 10:46:02 - INFO - Server is running on port: 3030
+29/03/2022, 10:46:13 - INFO - Server is running on port: 3030
+29/03/2022, 10:48:26 - DEBUG - auth.service - signup with username: rzshachar@gmail.com, fullname: Shachar Ron Zohar
+29/03/2022, 10:48:26 - DEBUG - auth.route - new account created: {"username":"rzshachar@gmail.com","password":"$2b$10$Us9OWBl0j2onMHd8Q594GeEy2iCTJ2/HPAtZppj.TDM7e7JzL36wK","fullname":"Shachar Ron Zohar","isAdmin":false,"_id":"6242b9ca7831ff946eff8945"}
+29/03/2022, 10:48:26 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 10:49:48 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 10:56:18 - INFO - Server is running on port: 3030
+29/03/2022, 10:56:21 - INFO - Server is running on port: 3030
+29/03/2022, 10:56:38 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 10:56:48 - ERROR - Failed to signup ReferenceError: dbService is not defined
+29/03/2022, 10:57:15 - INFO - Server is running on port: 3030
+29/03/2022, 10:57:24 - DEBUG - auth.service - signup with username: rzshachar@gmail.com, fullname: Shachar Ron Zohar
+29/03/2022, 10:57:24 - ERROR - Failed to signup fullname, username and password are required!
+29/03/2022, 10:57:40 - INFO - Server is running on port: 3030
+29/03/2022, 10:57:55 - INFO - Server is running on port: 3030
+29/03/2022, 10:58:01 - DEBUG - auth.service - signup with username: rzshachar@gmail.com, fullname: Shachar Ron Zohar
+29/03/2022, 10:58:01 - ERROR - Failed to signup User already exists!
+29/03/2022, 10:58:32 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
+29/03/2022, 10:58:32 - DEBUG - auth.route - new account created: {"username":"sasthepenguinftw@gmail.com","password":"$2b$10$/wxWJ0qfx73.EH0nSXGbbOIUCqSineMvOf1ZqPAXKEcF6n93m97fG","fullname":"Ron - Zohar Shahar","isAdmin":false,"_id":"6242bc285545c3fb7e7528a3"}
+29/03/2022, 10:58:32 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com
+29/03/2022, 10:58:49 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
+29/03/2022, 10:58:49 - ERROR - Failed to signup User already exists!
+29/03/2022, 10:59:15 - INFO - Req from: Ron - Zohar Shahar
+29/03/2022, 10:59:24 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 11:00:16 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 11:00:16 - ERROR - Failed to Login Invalid username or password
+29/03/2022, 11:00:17 - INFO - Req from: Shachar Ron Zohar
