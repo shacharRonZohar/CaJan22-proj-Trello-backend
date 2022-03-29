@@ -53,10 +53,12 @@ async function remove(boardId) {
 }
 
 async function add(board) {
+  console.log(board)
   try {
     const collection = await dbService.getCollection('board')
-    const addedBoard = await collection.insertOne(board)
-    return addedBoard
+    const addedBoardId = await collection.insertOne(board)
+    board._id = addedBoardId
+    return board
   } catch (err) {
     logger.error('cannot insert board', err)
     throw err
@@ -81,10 +83,10 @@ function _buildCriteria(filterBy) {
   const criteria = {}
 
   // by user
-  console.log(filterBy)
+  // console.log(filterBy)
   const regex = new RegExp(filterBy[0])
   // console.log(regex)
-  console.log(regex)
+  // console.log(regex)
   criteria.members = {
     $regex: regex
   }
@@ -112,7 +114,7 @@ function _getDemoData() {
     'createdAt': Date.now(),
     'createdBy': { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' },
     'members': [
-      { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' }
+      '6242ca535545c3fb7e7528a5'
     ],
     'style': {
       'imgUrl': '../assets/imgs/boardBackground/1.jpg'
@@ -149,7 +151,6 @@ function _getDemoData() {
         "color": "#0079bf"
       },
     ],
-    'members': [],
     'groups': [
       {
         'id': utilService.makeId('g'),
@@ -315,7 +316,6 @@ function _getDemoData() {
         "color": "#0079bf"
       },
     ],
-    'members': [],
     'groups': [
       {
         'id': utilService.makeId('g'),
