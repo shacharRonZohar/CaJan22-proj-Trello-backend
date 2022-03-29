@@ -7,11 +7,22 @@ module.exports = {
   deleteUser,
   updateUser,
   addUser,
+  getUserByUsername
 }
 
 async function getUser(req, res) {
   try {
     const user = await userService.getById(req.params.id)
+    res.send(user)
+  } catch (err) {
+    logger.error('Failed to get user', err)
+    res.status(500).send({ err: 'Failed to get user' })
+  }
+}
+
+async function getUserByUsername(req, res) {
+  try {
+    const user = await userService.getByUsername(req.params.username)
     res.send(user)
   } catch (err) {
     logger.error('Failed to get user', err)

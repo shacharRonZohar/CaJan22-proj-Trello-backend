@@ -875,3 +875,18 @@
 29/03/2022, 14:15:25 - INFO - Server is running on port: 3030
 29/03/2022, 14:16:48 - INFO - Server is running on port: 3030
 29/03/2022, 14:16:51 - INFO - Server is running on port: 3030
+29/03/2022, 14:24:49 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 14:30:27 - INFO - Req from: Shachar Ron Zohar
+29/03/2022, 15:28:58 - INFO - Server is running on port: 3030
+29/03/2022, 16:15:48 - INFO - Server is running on port: 3030
+29/03/2022, 16:16:01 - INFO - Server is running on port: 3030
+29/03/2022, 16:16:45 - INFO - Server is running on port: 3030
+29/03/2022, 16:16:49 - INFO - Server is running on port: 3030
+29/03/2022, 16:20:26 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 16:20:36 - ERROR - while finding user [object Object] | {}
+29/03/2022, 16:20:36 - ERROR - Failed to get user | {}
+29/03/2022, 16:21:27 - INFO - Server is running on port: 3030
+29/03/2022, 16:23:15 - INFO - Server is running on port: 3030
+29/03/2022, 16:25:08 - INFO - Server is running on port: 3030
+29/03/2022, 16:25:51 - INFO - Server is running on port: 3030
+29/03/2022, 16:26:30 - INFO - Server is running on port: 3030
