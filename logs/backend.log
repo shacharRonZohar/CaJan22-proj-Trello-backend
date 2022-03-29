@@ -890,3 +890,39 @@
 29/03/2022, 16:25:08 - INFO - Server is running on port: 3030
 29/03/2022, 16:25:51 - INFO - Server is running on port: 3030
 29/03/2022, 16:26:30 - INFO - Server is running on port: 3030
+29/03/2022, 19:06:07 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
+29/03/2022, 19:06:07 - ERROR - Failed to signup User already exists!
+29/03/2022, 19:06:16 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 19:06:16 - ERROR - Failed to Login Error: data and hash arguments required
+29/03/2022, 19:06:42 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com
+29/03/2022, 19:06:42 - ERROR - Failed to Login Error: data and hash arguments required
+29/03/2022, 19:07:41 - DEBUG - auth.service - signup with username: Test@test.com, fullname: Tes
+29/03/2022, 19:07:41 - DEBUG - auth.route - new account created: {"username":"Test@test.com","password":"$2b$10$cV6xKfrT1.liLaQEUgjXkugtDgTxsvtIrZswbI9yzPZSJ8WfXdDvG","fullname":"Tes","isAdmin":false,"_id":"62432ecd9ff219158a4b42c7"}
+29/03/2022, 19:07:41 - DEBUG - auth.service - login with username: Test@test.com
+29/03/2022, 19:07:41 - ERROR - Failed to signup Error: data and hash arguments required
+29/03/2022, 19:07:57 - DEBUG - auth.service - signup with username: Test@test.com, fullname: Tes
+29/03/2022, 19:07:57 - ERROR - Failed to signup User already exists!
+29/03/2022, 19:08:57 - DEBUG - auth.service - signup with username: test@test, fullname: asda
+29/03/2022, 19:08:57 - DEBUG - auth.route - new account created: {"username":"test@test","password":"$2b$10$gziCEbznzvRbX3rssOmZT.VwI4keWWmxuDZQGkcyOu6CPmVKtsRdW","fullname":"asda","isAdmin":false,"_id":"62432f199ff219158a4b42c8"}
+29/03/2022, 19:08:57 - DEBUG - auth.service - login with username: test@test
+29/03/2022, 19:08:57 - ERROR - Failed to signup Error: data and hash arguments required
+29/03/2022, 19:20:32 - DEBUG - auth.service - signup with username: rzshachar@gmail.com, fullname: Shachar Ron Zohar
+29/03/2022, 19:20:32 - ERROR - Failed to signup User already exists!
+29/03/2022, 19:21:18 - DEBUG - auth.service - signup with username: rzshachar@gmail.com, fullname: Shachar Ron Zohar
+29/03/2022, 19:21:18 - DEBUG - auth.route - new account created: {"username":"rzshachar@gmail.com","password":"$2b$10$pRi.w11lZvtlctyOwN.42eRqlwlrYTK3FHctpKP9Ss5wJIX3AaOXG","fullname":"Shachar Ron Zohar","isAdmin":false,"_id":"624331fe9ff219158a4b42c9"}
+29/03/2022, 19:21:18 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+29/03/2022, 19:21:19 - ERROR - Failed to signup Error: data and hash arguments required
+29/03/2022, 19:24:46 - INFO - Server is running on port: 3030
+29/03/2022, 19:25:11 - INFO - Server is running on port: 3030
+29/03/2022, 19:32:02 - DEBUG - auth.service - signup with username: 123@sad, fullname: asd
+29/03/2022, 19:32:02 - DEBUG - auth.route - new account created: {"username":"123@sad","password":"$2b$10$JqYdYzrj/M3/42/dnHD4pON7I/9t40OCJhjJF1RzGWKdKc67PW0lG","fullname":"asd","isAdmin":false,"_id":"62433482fa150cebde9e02d5"}
+29/03/2022, 19:32:02 - DEBUG - auth.service - login with username: 123@sad
+29/03/2022, 19:32:02 - ERROR - Failed to signup Error: data and hash arguments required
+29/03/2022, 19:34:35 - INFO - Server is running on port: 3030
+29/03/2022, 19:34:47 - INFO - Server is running on port: 3030
+29/03/2022, 19:35:26 - DEBUG - auth.service - signup with username: 123@sad, fullname: asd
+29/03/2022, 19:35:26 - DEBUG - auth.route - new account created: {"username":"123@sad","password":"$2b$10$NtXRUyIg7KNQVJFoAb.sFOMlqj6ByPU7MPAw3vWJm30CwgNTwu7uW","fullname":"asd","isAdmin":false,"_id":"6243354e63f3fcda59719abe"}
+29/03/2022, 19:35:26 - DEBUG - auth.service - login with username: 123@sad
+29/03/2022, 19:35:26 - ERROR - Failed to signup Error: data and hash arguments required
+29/03/2022, 19:36:24 - INFO - Server is running on port: 3030
+29/03/2022, 19:36:37 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com

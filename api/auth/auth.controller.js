@@ -22,6 +22,7 @@ async function login(req, res) {
 async function signup(req, res) {
   try {
     const { username, password, fullname } = req.body
+    console.log('from signup controller', username, password, fullname)
     // Never log passwords
     // logger.debug(fullname + ', ' + username + ', ' + password)
     const account = await authService.signup(username, password, fullname)
