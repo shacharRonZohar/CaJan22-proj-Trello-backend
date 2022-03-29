@@ -7,7 +7,8 @@ module.exports = {
   deleteUser,
   updateUser,
   addUser,
-  getUserByUsername
+  getUserByUsername,
+  getUserByUsernameForMembers
 }
 
 async function getUser(req, res) {
@@ -23,6 +24,16 @@ async function getUser(req, res) {
 async function getUserByUsername(req, res) {
   try {
     const user = await userService.getByUsername(req.params.username)
+    res.send(user)
+  } catch (err) {
+    logger.error('Failed to get user', err)
+    res.status(500).send({ err: 'Failed to get user' })
+  }
+}
+async function getUserByUsernameForMembers(req, res) {
+  try {
+    const user = await userService.getByUsername(req.params.username)
+    delete user.password
     res.send(user)
   } catch (err) {
     logger.error('Failed to get user', err)
