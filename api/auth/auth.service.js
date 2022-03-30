@@ -19,7 +19,7 @@ async function login(username, password) {
   return user
 }
 
-async function signup(username, password, fullname) {
+async function signup(username, password, fullname, imgUrl) {
   const saltRounds = 10
   const collection = await dbService.getCollection('user')
   const users = await collection.find().toArray()
@@ -32,5 +32,5 @@ async function signup(username, password, fullname) {
   }
 
   const hash = await bcrypt.hash(password, saltRounds)
-  return userService.add({ username, password: hash, fullname })
+  return userService.add({ username, password: hash, fullname, imgUrl })
 }

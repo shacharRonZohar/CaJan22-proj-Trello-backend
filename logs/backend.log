@@ -959,3 +959,21 @@
 30/03/2022, 10:20:55 - INFO - Req from: Shachar Ron Zohar
 30/03/2022, 10:21:34 - INFO - Server is running on port: 3030
 30/03/2022, 10:22:21 - INFO - Server is running on port: 3030
+30/03/2022, 10:44:18 - INFO - Server is running on port: 3030
+30/03/2022, 10:48:47 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
+30/03/2022, 10:48:47 - DEBUG - auth.route - new account created: {"username":"sasthepenguinftw@gmail.com","password":"$2b$10$2O1MWe9TQVrgTo8DNkPqN.yST3w6r.NKsB4tNOZ.39JoOFe1mErNu","fullname":"Ron - Zohar Shahar","_id":"62440b5f0dccf53e1c88a23d"}
+30/03/2022, 10:48:47 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com
+30/03/2022, 11:13:42 - INFO - Server is running on port: 3030
+30/03/2022, 11:14:50 - INFO - Server is running on port: 3030
+30/03/2022, 11:19:43 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
+30/03/2022, 11:19:43 - ERROR - Failed to signup User already exists!
+30/03/2022, 11:21:18 - INFO - Server is running on port: 3030
+30/03/2022, 11:21:30 - INFO - Server is running on port: 3030
+30/03/2022, 11:21:41 - INFO - Server is running on port: 3030
+30/03/2022, 11:21:48 - INFO - Server is running on port: 3030
+30/03/2022, 11:21:59 - INFO - Server is running on port: 3030
+30/03/2022, 11:22:07 - INFO - Server is running on port: 3030
+30/03/2022, 11:22:26 - INFO - Server is running on port: 3030
+30/03/2022, 11:23:03 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
+30/03/2022, 11:23:03 - DEBUG - auth.route - new account created: {"username":"sasthepenguinftw@gmail.com","password":"$2b$10$aPC/y6CaoqIPr.NtbqQFgeMUYua2l6ss67.9x4zSaKRqlYiKXKBam","fullname":"Ron - Zohar Shahar","imgUrl":"https://lh3.googleusercontent.com/a/AATXAJxOV3XFDTOA4li_woiIMlko_492GMSMTnzV0rQL=s96-c","_id":"6244136784efdc189fd84a60"}
+30/03/2022, 11:23:03 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com
