@@ -50,6 +50,7 @@ async function addBoard(req, res) {
 async function updateBoard(req, res) {
   try {
     const board = req.body
+    // console.log(board)
     const updatedBoard = await boardService.update(board)
     // console.log(updatedBoard)
     res.json(updatedBoard)

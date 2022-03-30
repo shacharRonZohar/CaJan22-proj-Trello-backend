@@ -85,7 +85,8 @@ async function add(user) {
     const userToAdd = {
       username: user.username,
       password: user.password,
-      fullname: user.fullname
+      fullname: user.fullname,
+      imgUrl: user.imgUrl
     }
     const collection = await dbService.getCollection('user')
     await collection.insertOne(userToAdd)
@@ -98,8 +99,8 @@ async function add(user) {
 
 function _buildCriteria(filterBy) {
   const criteria = {}
-  if (filterBy.txt) {
-    const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+  if (filterBy) {
+    const txtCriteria = { $regex: filterBy, $options: 'i' }
     criteria.$or = [
       {
         username: txtCriteria,
@@ -108,9 +109,6 @@ function _buildCriteria(filterBy) {
         fullname: txtCriteria,
       },
     ]
-  }
-  if (filterBy.minBalance) {
-    criteria.balance = { $gte: filterBy.minBalance }
   }
   return criteria
 }

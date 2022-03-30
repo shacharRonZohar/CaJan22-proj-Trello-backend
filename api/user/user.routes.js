@@ -7,6 +7,7 @@ const router = express.Router()
 // router.use(requireAuth)
 
 router.get('/', getUsers)
+router.get('/by/:byTxt', getUsers)
 // router.get('/:id', getUser)
 router.get('/member/:username', getUserByUsernameForMembers)
 router.put('/:id', updateUser)
