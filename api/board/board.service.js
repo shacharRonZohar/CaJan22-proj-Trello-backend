@@ -90,7 +90,8 @@ function _buildCriteria(filterBy) {
   //   $regex: regex
   // }
   if (filterBy.user) {
-    const user = filterBy.user
+    const user = JSON.parse(filterBy.user)
+    console.log(user)
     criteria.$or = [{ members: user }, { createdBy: user }]
   }
   // by name
@@ -114,9 +115,17 @@ function _getDemoData() {
   return [{
     'title': 'Trello dev proj-mongo-testing',
     'createdAt': Date.now(),
-    'createdBy': { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' },
+    'createdBy': {
+      _id: '624331fe9ff219158a4b42c9',
+      username: 'rzshachar@gmail.com',
+      fullname: 'Shachar Ron Zohar'
+    },
     'members': [
-      { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' }
+      {
+        _id: '624331fe9ff219158a4b42c9',
+        username: 'rzshachar@gmail.com',
+        fullname: 'Shachar Ron Zohar'
+      }
     ],
     'style': {
       'imgUrl': '../assets/imgs/boardBackground/1.jpg'
@@ -282,7 +291,11 @@ function _getDemoData() {
   {
     'title': 'Trello dev proj',
     'createdAt': Date.now(),
-    'createdBy': {},
+    'createdBy': {
+      _id: '624331fe9ff219158a4b42c9',
+      username: 'rzshachar@gmail.com',
+      fullname: 'Shachar Ron Zohar'
+    },
     'style': {
       'imgUrl': '../assets/imgs/boardBackground/2.jpg'
     },
