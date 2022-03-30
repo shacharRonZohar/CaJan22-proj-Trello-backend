@@ -1136,3 +1136,22 @@
 30/03/2022, 21:47:31 - INFO - Server is running on port: 3030
 30/03/2022, 21:47:32 - INFO - Server is running on port: 3030
 30/03/2022, 21:47:45 - INFO - Server is running on port: 3030
+30/03/2022, 21:58:38 - ERROR - cannot find boards | {}
+30/03/2022, 21:58:38 - ERROR - Failed to get boards | {}
+30/03/2022, 21:58:43 - ERROR - cannot find boards | {}
+30/03/2022, 21:58:43 - ERROR - Failed to get boards | {}
+30/03/2022, 21:59:15 - INFO - Server is running on port: 3030
+30/03/2022, 21:59:27 - ERROR - cannot find boards | {}
+30/03/2022, 21:59:27 - ERROR - Failed to get boards | {}
+30/03/2022, 21:59:45 - INFO - Server is running on port: 3030
+30/03/2022, 21:59:48 - ERROR - cannot find boards | {}
+30/03/2022, 21:59:48 - ERROR - Failed to get boards | {}
+30/03/2022, 21:59:57 - INFO - Server is running on port: 3030
+30/03/2022, 22:00:03 - ERROR - cannot find boards | {}
+30/03/2022, 22:00:03 - ERROR - Failed to get boards | {}
+30/03/2022, 22:00:11 - INFO - Server is running on port: 3030
+30/03/2022, 22:00:36 - DEBUG - auth.service - login with username: guest@ca.com
+30/03/2022, 22:00:36 - INFO - Req from: Guest
+30/03/2022, 22:10:49 - INFO - Req from: Guest
+30/03/2022, 22:11:25 - INFO - Req from: Guest
+30/03/2022, 22:15:00 - INFO - Req from: Guest

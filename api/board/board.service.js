@@ -19,7 +19,9 @@ async function query(filterBy) {
     let boards = await collection.find(criteria).toArray()
     if (!boards.length) {
       const demoCollection = await dbService.getCollection('demo_data')
-      const demoData = demoCollection.find().toArray()
+      console.log(demoCollection)
+      const demoData = await demoCollection.find().toArray()
+      console.log(demoData)
       collection.insertMany(demoData)
       boards = await collection.find(criteria).toArray()
     }
