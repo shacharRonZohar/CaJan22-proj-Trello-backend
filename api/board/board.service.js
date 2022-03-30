@@ -59,6 +59,12 @@ async function add(board) {
       "fullname": "Guest",
       "imgUrl": "https://idhubs.com/themes/frontend/default/assets/images/avatar/g/600.png"
     }]
+    else board.members.push({
+      "_id": "624489ca5b668804d46317cd",
+      "username": "guest@ca.com",
+      "fullname": "Guest",
+      "imgUrl": "https://idhubs.com/themes/frontend/default/assets/images/avatar/g/600.png"
+    })
     const collection = await dbService.getCollection('board')
     const addedBoardId = await collection.insertOne(board)
     board._id = addedBoardId
