@@ -959,7 +959,6 @@
 30/03/2022, 10:20:55 - INFO - Req from: Shachar Ron Zohar
 30/03/2022, 10:21:34 - INFO - Server is running on port: 3030
 30/03/2022, 10:22:21 - INFO - Server is running on port: 3030
-<<<<<<< HEAD
 3/30/2022, 10:44:32 AM - INFO - Server is running on port: 3030
 3/30/2022, 10:53:39 AM - DEBUG - auth.service - signup with username: chenbezalel5@5, fullname: chen
 3/30/2022, 10:53:39 AM - DEBUG - auth.route - new account created: {"username":"chenbezalel5@5","password":"$2b$10$5t88ZYRcwN8d7PdO2ht7ZOP2W6nU7DLutj2rx/A72f9CABR/Xi7su","fullname":"chen","_id":"62440c832af08c68bdf3b534"}
@@ -1016,71 +1015,8 @@
 3/30/2022, 7:35:10 PM - ERROR - cannot update board [object Object] | {}
 3/30/2022, 7:35:10 PM - ERROR - Failed to update board | {}
 3/30/2022, 7:35:54 PM - INFO - Req from: Chen Bezalel
-=======
-30/03/2022, 10:44:18 - INFO - Server is running on port: 3030
-30/03/2022, 10:48:47 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
-30/03/2022, 10:48:47 - DEBUG - auth.route - new account created: {"username":"sasthepenguinftw@gmail.com","password":"$2b$10$2O1MWe9TQVrgTo8DNkPqN.yST3w6r.NKsB4tNOZ.39JoOFe1mErNu","fullname":"Ron - Zohar Shahar","_id":"62440b5f0dccf53e1c88a23d"}
-30/03/2022, 10:48:47 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com
-30/03/2022, 11:13:42 - INFO - Server is running on port: 3030
-30/03/2022, 11:14:50 - INFO - Server is running on port: 3030
-30/03/2022, 11:19:43 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
-30/03/2022, 11:19:43 - ERROR - Failed to signup User already exists!
-30/03/2022, 11:21:18 - INFO - Server is running on port: 3030
-30/03/2022, 11:21:30 - INFO - Server is running on port: 3030
-30/03/2022, 11:21:41 - INFO - Server is running on port: 3030
-30/03/2022, 11:21:48 - INFO - Server is running on port: 3030
-30/03/2022, 11:21:59 - INFO - Server is running on port: 3030
-30/03/2022, 11:22:07 - INFO - Server is running on port: 3030
-30/03/2022, 11:22:26 - INFO - Server is running on port: 3030
-30/03/2022, 11:23:03 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
-30/03/2022, 11:23:03 - DEBUG - auth.route - new account created: {"username":"sasthepenguinftw@gmail.com","password":"$2b$10$aPC/y6CaoqIPr.NtbqQFgeMUYua2l6ss67.9x4zSaKRqlYiKXKBam","fullname":"Ron - Zohar Shahar","imgUrl":"https://lh3.googleusercontent.com/a/AATXAJxOV3XFDTOA4li_woiIMlko_492GMSMTnzV0rQL=s96-c","_id":"6244136784efdc189fd84a60"}
-30/03/2022, 11:23:03 - DEBUG - auth.service - login with username: sasthepenguinftw@gmail.com
-30/03/2022, 11:25:47 - INFO - Req from: Ron - Zohar Shahar
-30/03/2022, 11:26:07 - INFO - Req from: Ron - Zohar Shahar
-30/03/2022, 11:29:50 - INFO - Req from: Ron - Zohar Shahar
-30/03/2022, 11:34:43 - ERROR - Failed to get user | {}
-30/03/2022, 11:34:44 - INFO - Req from: Ron - Zohar Shahar
-30/03/2022, 11:37:34 - ERROR - Failed to get user | {}
-30/03/2022, 12:53:14 - INFO - Req from: Ron - Zohar Shahar
-30/03/2022, 12:53:43 - DEBUG - auth.service - signup with username: rzshachar@gmail.com, fullname: Shachar Ron Zohar
-30/03/2022, 12:53:43 - DEBUG - auth.route - new account created: {"username":"rzshachar@gmail.com","password":"$2b$10$NdVx9kzQp4SgRM8/2t7Pwu5j34eYwUOR7E8OejTIkkYflIM9yezsi","fullname":"Shachar Ron Zohar","imgUrl":"https://lh3.googleusercontent.com/a-/AOh14GiAUBhNsWsY-sARcVrJGY0l9OmVQgc2YHsfJfRjTw=s96-c","_id":"624428a784efdc189fd84a64"}
-30/03/2022, 12:53:43 - DEBUG - auth.service - login with username: rzshachar@gmail.com
-30/03/2022, 12:54:43 - ERROR - cannot update board [object Object] | {}
-30/03/2022, 12:54:43 - ERROR - Failed to update board | {}
-30/03/2022, 12:54:49 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 12:54:57 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 12:55:07 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 12:55:09 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 13:23:45 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 13:26:40 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 14:22:33 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 15:40:35 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:22:02 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:25:32 - DEBUG - auth.service - login with username: rzshachar@gmail.com
-30/03/2022, 16:25:41 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:33:16 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:33:35 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:33:41 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:34:48 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:34:54 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:36:14 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:37:01 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:37:34 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:38:05 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:50:26 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:50:31 - INFO - Req from: Shachar Ron Zohar
-30/03/2022, 16:52:30 - INFO - Server is running on port: 3030
-30/03/2022, 16:54:35 - INFO - Server is running on port: 3030
-30/03/2022, 16:54:40 - INFO - Server is running on port: 3030
-30/03/2022, 16:54:45 - INFO - Server is running on port: 3030
-30/03/2022, 16:54:53 - INFO - Server is running on port: 3030
-30/03/2022, 16:55:12 - INFO - Server is running on port: 3030
-30/03/2022, 16:55:27 - INFO - Server is running on port: 3030
-30/03/2022, 16:55:43 - INFO - Server is running on port: 3030
-30/03/2022, 16:56:38 - INFO - Server is running on port: 3030
-30/03/2022, 16:56:41 - INFO - Server is running on port: 3030
-30/03/2022, 16:57:36 - INFO - Server is running on port: 3030
-30/03/2022, 16:57:53 - INFO - Server is running on port: 3030
-30/03/2022, 16:58:25 - INFO - Server is running on port: 3030
->>>>>>> 937d77a852b300e679dc3eed9e73de9aac3f121d
 3/30/2022, 7:41:51 PM - INFO - Server is running on port: 3030
+3/30/2022, 7:43:58 PM - DEBUG - auth.service - login with username: chenbezalel5@gmail.com
+3/30/2022, 7:43:58 PM - INFO - Req from: Chen Bezalel
+3/30/2022, 7:53:37 PM - INFO - Req from: Chen Bezalel
+3/30/2022, 7:55:52 PM - INFO - Req from: Chen Bezalel
