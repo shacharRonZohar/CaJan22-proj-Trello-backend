@@ -38,6 +38,7 @@ async function addBoard(req, res) {
   try {
     const board = req.body
     const addedBoard = await boardService.add(board)
+    // console.log(addedBoard)
     res.json(addedBoard)
   } catch (err) {
     logger.error('Failed to add board', err)

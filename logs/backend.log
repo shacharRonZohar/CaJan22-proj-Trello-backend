@@ -959,7 +959,6 @@
 30/03/2022, 10:20:55 - INFO - Req from: Shachar Ron Zohar
 30/03/2022, 10:21:34 - INFO - Server is running on port: 3030
 30/03/2022, 10:22:21 - INFO - Server is running on port: 3030
-<<<<<<< HEAD
 3/30/2022, 10:44:32 AM - INFO - Server is running on port: 3030
 3/30/2022, 10:53:39 AM - DEBUG - auth.service - signup with username: chenbezalel5@5, fullname: chen
 3/30/2022, 10:53:39 AM - DEBUG - auth.route - new account created: {"username":"chenbezalel5@5","password":"$2b$10$5t88ZYRcwN8d7PdO2ht7ZOP2W6nU7DLutj2rx/A72f9CABR/Xi7su","fullname":"chen","_id":"62440c832af08c68bdf3b534"}
@@ -1016,6 +1015,13 @@
 3/30/2022, 7:35:10 PM - ERROR - cannot update board [object Object] | {}
 3/30/2022, 7:35:10 PM - ERROR - Failed to update board | {}
 3/30/2022, 7:35:54 PM - INFO - Req from: Chen Bezalel
+<<<<<<< HEAD
+3/30/2022, 7:41:51 PM - INFO - Server is running on port: 3030
+3/30/2022, 7:43:58 PM - DEBUG - auth.service - login with username: chenbezalel5@gmail.com
+3/30/2022, 7:43:58 PM - INFO - Req from: Chen Bezalel
+3/30/2022, 7:53:37 PM - INFO - Req from: Chen Bezalel
+3/30/2022, 7:55:52 PM - INFO - Req from: Chen Bezalel
+=======
 =======
 30/03/2022, 10:44:18 - INFO - Server is running on port: 3030
 30/03/2022, 10:48:47 - DEBUG - auth.service - signup with username: sasthepenguinftw@gmail.com, fullname: Ron - Zohar Shahar
@@ -1113,4 +1119,11 @@
 3/30/2022, 7:41:51 PM - INFO - Server is running on port: 3030
 >>>>>>> fb0d7b5e99d0af2a7059c594ac7d93efbd863fb3
 30/03/2022, 19:55:07 - INFO - Server is running on port: 3030
+<<<<<<< HEAD
 30/03/2022, 20:16:16 - INFO - Server is running on port: 3030
+=======
+>>>>>>> c58c8b27aa6a136fd809678a74aaac0c90239bda
+3/30/2022, 8:10:24 PM - INFO - Server is running on port: 3030
+3/30/2022, 8:11:55 PM - INFO - Server is running on port: 3030
+3/30/2022, 8:12:01 PM - INFO - Server is running on port: 3030
+>>>>>>> 8db26da81114b6707a8c0cd166db98c8da9ebe6c

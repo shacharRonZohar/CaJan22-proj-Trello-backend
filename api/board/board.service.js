@@ -52,7 +52,9 @@ async function remove(boardId) {
 }
 
 async function add(board) {
+  console.log(board)
   try {
+<<<<<<< HEAD
     if (!board?.members || !board?.members.length) board.members = [{
       "_id": "624489ca5b668804d46317cd",
       "username": "guest@ca.com",
@@ -65,6 +67,8 @@ async function add(board) {
       "fullname": "Guest",
       "imgUrl": "https://idhubs.com/themes/frontend/default/assets/images/avatar/g/600.png"
     })
+=======
+>>>>>>> 8db26da81114b6707a8c0cd166db98c8da9ebe6c
     const collection = await dbService.getCollection('board')
     const addedBoardId = await collection.insertOne(board)
     board._id = addedBoardId
@@ -133,10 +137,9 @@ function _getDemoData() {
     },
     'members': [
       {
-        "_id": "624489ca5b668804d46317cd",
-        "username": "guest@ca.com",
-        "fullname": "Guest",
-        "imgUrl": "https://idhubs.com/themes/frontend/default/assets/images/avatar/g/600.png"
+        _id: '624331fe9ff219158a4b42c9',
+        username: 'rzshachar@gmail.com',
+        fullname: 'Shachar Ron Zohar'
       }
     ],
     'style': {
@@ -308,12 +311,6 @@ function _getDemoData() {
       username: 'rzshachar@gmail.com',
       fullname: 'Shachar Ron Zohar'
     },
-    'members': [{
-      "_id": "624489ca5b668804d46317cd",
-      "username": "guest@ca.com",
-      "fullname": "Guest",
-      "imgUrl": "https://idhubs.com/themes/frontend/default/assets/images/avatar/g/600.png"
-    }],
     'style': {
       'imgUrl': '../assets/imgs/boardBackground/2.jpg'
     },
