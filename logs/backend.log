@@ -930,3 +930,24 @@
 29/03/2022, 19:59:57 - INFO - Server is running on port: 3030
 29/03/2022, 21:37:42 - INFO - Server is running on port: 3030
 29/03/2022, 21:40:01 - INFO - Server is running on port: 3030
+29/03/2022, 22:03:52 - INFO - Server is running on port: 3030
+29/03/2022, 22:04:43 - INFO - Server is running on port: 3030
+30/03/2022, 09:56:25 - INFO - Server is running on port: 3030
+30/03/2022, 09:57:01 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+30/03/2022, 10:03:06 - INFO - Server is running on port: 3030
+30/03/2022, 10:05:04 - INFO - Server is running on port: 3030
+30/03/2022, 10:07:04 - INFO - Server is running on port: 3030
+30/03/2022, 10:08:05 - ERROR - cannot find boards | {"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7080786528472924163"},"signature":{"hash":"eBf3X/0UqUnaIw0xcCKf39hxIyU=","keyId":{"low":14,"high":1635958966,"unsigned":false}}},"operationTime":{"$timestamp":"7080786528472924163"}}
+30/03/2022, 10:08:05 - ERROR - Failed to get boards | {"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7080786528472924163"},"signature":{"hash":"eBf3X/0UqUnaIw0xcCKf39hxIyU=","keyId":{"low":14,"high":1635958966,"unsigned":false}}},"operationTime":{"$timestamp":"7080786528472924163"}}
+30/03/2022, 10:08:28 - ERROR - cannot find boards | {"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7080786622962204692"},"signature":{"hash":"n4ZCYm+vfFDo4Pa1JzfBq1Mt7Cc=","keyId":{"low":14,"high":1635958966,"unsigned":false}}},"operationTime":{"$timestamp":"7080786622962204692"}}
+30/03/2022, 10:08:28 - ERROR - Failed to get boards | {"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7080786622962204692"},"signature":{"hash":"n4ZCYm+vfFDo4Pa1JzfBq1Mt7Cc=","keyId":{"low":14,"high":1635958966,"unsigned":false}}},"operationTime":{"$timestamp":"7080786622962204692"}}
+30/03/2022, 10:09:02 - INFO - Server is running on port: 3030
+30/03/2022, 10:10:10 - INFO - Server is running on port: 3030
+30/03/2022, 10:10:19 - ERROR - cannot find boards | {"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7080787099703574540"},"signature":{"hash":"LTNmvKD70zfFSLUkWPbbvkgDcbQ=","keyId":{"low":14,"high":1635958966,"unsigned":false}}},"operationTime":{"$timestamp":"7080787099703574540"}}
+30/03/2022, 10:10:19 - ERROR - Failed to get boards | {"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7080787099703574540"},"signature":{"hash":"LTNmvKD70zfFSLUkWPbbvkgDcbQ=","keyId":{"low":14,"high":1635958966,"unsigned":false}}},"operationTime":{"$timestamp":"7080787099703574540"}}
+30/03/2022, 10:12:49 - INFO - Server is running on port: 3030
+30/03/2022, 10:14:15 - INFO - Server is running on port: 3030
+30/03/2022, 10:14:22 - ERROR - cannot find boards | {}
+30/03/2022, 10:14:22 - ERROR - Failed to get boards | {}
+30/03/2022, 10:14:50 - INFO - Server is running on port: 3030
+30/03/2022, 10:15:17 - INFO - Server is running on port: 3030

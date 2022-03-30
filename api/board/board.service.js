@@ -15,7 +15,6 @@ async function query(filterBy) {
   try {
     const criteria = _buildCriteria(filterBy)
     // const criteria = {}
-
     const collection = await dbService.getCollection('board')
     let boards = await collection.find(criteria).toArray()
     if (!boards.length) {
@@ -84,13 +83,16 @@ function _buildCriteria(filterBy) {
 
   // by user
   // console.log(filterBy)
-  const regex = new RegExp(filterBy[0])
+  // const regex = new RegExp(filterBy[0])
   // console.log(regex)
   // console.log(regex)
-  criteria.members = {
-    $regex: regex
+  // criteria.members = {
+  //   $regex: regex
+  // }
+  if (filterBy.user) {
+    const user = filterBy.user
+    criteria.$or = [{ members: user }, { createdBy: user }]
   }
-
   // by name
   // const regex = new RegExp(filterBy.name, 'i')
   // criteria.name = { $regex: regex }
@@ -110,11 +112,11 @@ function _buildCriteria(filterBy) {
 
 function _getDemoData() {
   return [{
-    'title': 'Trello dev proj',
+    'title': 'Trello dev proj-mongo-testing',
     'createdAt': Date.now(),
     'createdBy': { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' },
     'members': [
-      '6242ca535545c3fb7e7528a5'
+      { _id: '6242ca535545c3fb7e7528a5', fullname: 'Shachar Ron Zohar', username: 'RZShachar@gmail.com' }
     ],
     'style': {
       'imgUrl': '../assets/imgs/boardBackground/1.jpg'
