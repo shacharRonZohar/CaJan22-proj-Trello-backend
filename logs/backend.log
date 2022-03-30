@@ -1024,3 +1024,28 @@
 30/03/2022, 16:57:36 - INFO - Server is running on port: 3030
 30/03/2022, 16:57:53 - INFO - Server is running on port: 3030
 30/03/2022, 16:58:25 - INFO - Server is running on port: 3030
+30/03/2022, 19:39:24 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+30/03/2022, 19:41:05 - INFO - Req from: Shachar Ron Zohar
+30/03/2022, 19:41:39 - INFO - Req from: Shachar Ron Zohar
+30/03/2022, 19:46:42 - DEBUG - auth.service - signup with username: guest@ca.com, fullname: Guest
+30/03/2022, 19:46:42 - DEBUG - auth.route - new account created: {"username":"guest@ca.com","password":"$2b$10$GS64g1ByrybNv1bZdTuSSuDhVNAqosx/yLavaGvNrHJ06XkXloG.y","fullname":"Guest","_id":"624489725b668804d46317cc"}
+30/03/2022, 19:46:42 - DEBUG - auth.service - login with username: guest@ca.com
+30/03/2022, 19:48:10 - DEBUG - auth.service - signup with username: guest@ca.com, fullname: Guest
+30/03/2022, 19:48:10 - DEBUG - auth.route - new account created: {"username":"guest@ca.com","password":"$2b$10$v5Nb6QFG1fhkkA7Y7AnuD.0/.LhozEZ60ZY6HOodKT3qndAkYtYp2","fullname":"Guest","imgUrl":"https://idhubs.com/themes/frontend/default/assets/images/avatar/g/600.png","_id":"624489ca5b668804d46317cd"}
+30/03/2022, 19:48:10 - DEBUG - auth.service - login with username: guest@ca.com
+30/03/2022, 19:49:48 - DEBUG - auth.service - login with username: undefined
+30/03/2022, 19:49:48 - ERROR - Failed to Login Invalid username or password
+30/03/2022, 19:49:51 - DEBUG - auth.service - login with username: undefined
+30/03/2022, 19:49:51 - ERROR - Failed to Login Invalid username or password
+30/03/2022, 19:49:53 - DEBUG - auth.service - login with username: undefined
+30/03/2022, 19:49:53 - ERROR - Failed to Login Invalid username or password
+30/03/2022, 19:49:54 - DEBUG - auth.service - login with username: undefined
+30/03/2022, 19:49:54 - ERROR - Failed to Login Invalid username or password
+30/03/2022, 19:49:55 - DEBUG - auth.service - login with username: undefined
+30/03/2022, 19:49:55 - ERROR - Failed to Login Invalid username or password
+30/03/2022, 19:50:18 - DEBUG - auth.service - login with username: guest@ca.com
+30/03/2022, 19:50:18 - ERROR - Failed to Login Invalid username or password
+30/03/2022, 19:51:18 - DEBUG - auth.service - login with username: guest@ca.com
+30/03/2022, 19:51:18 - INFO - Req from: Guest
+30/03/2022, 19:52:03 - INFO - Server is running on port: 3030
+30/03/2022, 19:53:07 - INFO - Server is running on port: 3030

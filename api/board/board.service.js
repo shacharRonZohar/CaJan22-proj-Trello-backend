@@ -52,8 +52,13 @@ async function remove(boardId) {
 }
 
 async function add(board) {
-  console.log(board)
   try {
+    if (!board?.members || !board?.members.length) board.members = [{
+      "_id": "624489ca5b668804d46317cd",
+      "username": "guest@ca.com",
+      "fullname": "Guest",
+      "imgUrl": "https://idhubs.com/themes/frontend/default/assets/images/avatar/g/600.png"
+    }]
     const collection = await dbService.getCollection('board')
     const addedBoardId = await collection.insertOne(board)
     board._id = addedBoardId
