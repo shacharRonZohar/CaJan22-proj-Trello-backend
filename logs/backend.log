@@ -1156,3 +1156,96 @@
 30/03/2022, 22:11:25 - INFO - Req from: Guest
 30/03/2022, 22:15:00 - INFO - Req from: Guest
 30/03/2022, 22:15:34 - INFO - Server is running on port: 3030
+31/03/2022, 09:17:16 - INFO - Server is running on port: 3030
+31/03/2022, 09:29:09 - DEBUG - auth.service - signup with username: adampn462@gmail.com, fullname: Adam Perlin
+31/03/2022, 09:29:09 - DEBUG - auth.route - new account created: {"username":"adampn462@gmail.com","password":"$2b$10$Kb/AvQLrM/7dMcf4BorFuO97XmS/GQHVRJbwx2oVwXuNLD.ayr726","fullname":"Adam Perlin","imgUrl":"https://res.cloudinary.com/twello/image/upload/v1648708084/adam-profile-pic_olseok.jpg","_id":"62454a35f3b4e489780297b9"}
+31/03/2022, 09:29:09 - DEBUG - auth.service - login with username: adampn462@gmail.com
+31/03/2022, 09:39:01 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 09:39:01 - INFO - Req from: Guest
+31/03/2022, 09:49:53 - INFO - Req from: Guest
+31/03/2022, 09:50:50 - INFO - Req from: Guest
+31/03/2022, 09:51:01 - INFO - Req from: Guest
+31/03/2022, 09:53:52 - INFO - Server is running on port: 3030
+31/03/2022, 09:58:13 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 09:58:19 - INFO - Req from: Guest
+31/03/2022, 10:27:22 - INFO - Req from: Guest
+31/03/2022, 10:28:09 - INFO - Req from: Guest
+31/03/2022, 10:28:43 - INFO - Req from: Guest
+31/03/2022, 10:28:44 - INFO - Req from: Guest
+31/03/2022, 10:32:20 - INFO - Req from: Guest
+31/03/2022, 10:32:38 - INFO - Req from: Guest
+31/03/2022, 10:32:39 - INFO - Req from: Guest
+31/03/2022, 10:33:21 - INFO - Req from: Guest
+31/03/2022, 10:33:22 - INFO - Req from: Guest
+31/03/2022, 10:34:34 - INFO - Req from: Guest
+31/03/2022, 10:34:34 - INFO - Req from: Guest
+31/03/2022, 10:34:51 - INFO - Req from: Guest
+31/03/2022, 10:35:13 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 10:35:24 - INFO - Req from: Guest
+31/03/2022, 10:35:32 - INFO - Req from: Guest
+31/03/2022, 10:35:32 - INFO - Req from: Guest
+31/03/2022, 10:35:38 - INFO - Req from: Guest
+31/03/2022, 10:35:39 - INFO - Req from: Guest
+31/03/2022, 10:35:45 - INFO - Req from: Guest
+31/03/2022, 10:36:09 - INFO - Req from: Guest
+31/03/2022, 10:36:10 - INFO - Req from: Guest
+31/03/2022, 10:38:17 - INFO - Req from: Guest
+31/03/2022, 10:38:17 - INFO - Req from: Guest
+31/03/2022, 10:38:24 - INFO - Req from: Guest
+31/03/2022, 10:38:25 - INFO - Req from: Guest
+31/03/2022, 10:38:36 - INFO - Req from: Guest
+31/03/2022, 10:38:45 - INFO - Req from: Guest
+31/03/2022, 10:38:45 - INFO - Req from: Guest
+31/03/2022, 10:45:55 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:45:55 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 10:45:57 - INFO - Req from: Guest
+31/03/2022, 10:46:38 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:46:59 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:47:10 - INFO - Req from: Shachar Ron Zohar
+31/03/2022, 10:48:45 - INFO - Server is running on port: 3030
+31/03/2022, 10:49:32 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 10:49:34 - INFO - Req from: Guest
+31/03/2022, 10:50:25 - INFO - Req from: Guest
+31/03/2022, 10:50:27 - INFO - Req from: Guest
+31/03/2022, 10:50:37 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:50:37 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 10:50:38 - INFO - Req from: Guest
+31/03/2022, 10:52:07 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:52:14 - INFO - Req from: Shachar Ron Zohar
+31/03/2022, 10:52:39 - INFO - Req from: Shachar Ron Zohar
+31/03/2022, 10:52:44 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:52:58 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 10:53:00 - INFO - Req from: Guest
+31/03/2022, 10:53:07 - INFO - Req from: Guest
+31/03/2022, 10:53:15 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:53:40 - INFO - Req from: Shachar Ron Zohar
+31/03/2022, 10:55:08 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:55:15 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:55:22 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 10:58:41 - INFO - Req from: Shachar Ron Zohar
+31/03/2022, 10:58:56 - INFO - Req from: Shachar Ron Zohar
+31/03/2022, 11:04:02 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 11:06:32 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 11:07:56 - DEBUG - auth.service - login with username: guest@ca.com
+31/03/2022, 11:07:57 - INFO - Req from: Guest
+31/03/2022, 11:09:20 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 11:14:00 - ERROR - cannot update board [object Object] | {}
+31/03/2022, 11:14:00 - ERROR - Failed to update board | {}
+31/03/2022, 11:14:00 - ERROR - cannot update board [object Object] | {}
+31/03/2022, 11:14:00 - ERROR - Failed to update board | {}
+31/03/2022, 11:14:00 - ERROR - cannot update board [object Object] | {}
+31/03/2022, 11:14:00 - ERROR - Failed to update board | {}
+31/03/2022, 11:14:00 - ERROR - cannot update board [object Object] | {}
+31/03/2022, 11:14:00 - ERROR - Failed to update board | {}
+31/03/2022, 11:24:25 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+31/03/2022, 15:08:17 - INFO - Server is running on port: 3030
+31/03/2022, 15:08:36 - ERROR - cannot update board [object Object] | {}
+31/03/2022, 15:08:36 - ERROR - Failed to update board | {}
+31/03/2022, 15:08:52 - INFO - Server is running on port: 3030
+31/03/2022, 15:09:56 - ERROR - cannot update board [object Object] | {}
+31/03/2022, 15:09:56 - ERROR - Failed to update board | {}
+31/03/2022, 15:10:29 - INFO - Server is running on port: 3030
+31/03/2022, 15:10:32 - INFO - Server is running on port: 3030
+31/03/2022, 15:11:18 - INFO - Server is running on port: 3030
+31/03/2022, 15:12:15 - INFO - Server is running on port: 3030
+31/03/2022, 15:15:45 - INFO - Server is running on port: 3030
