@@ -100,7 +100,7 @@ async function addActivity(activity) {
     await collection.updateOne({ _id: id }, { $push: { activities: activity } })
     const newCollection = await dbService.getCollection('board')
     const newBoards = await newCollection.find().toArray()
-    console.log('New boards from addActivity', newBoards)
+    console.log('New boards from addActivity', newBoards.activities)
     return Promise.resolve()
   } catch (err) {
     logger.error(`cannot add activity ${activity.id}`, err)
