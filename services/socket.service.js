@@ -15,7 +15,7 @@ function connectSockets(http, session) {
             console.log('Someone disconnected')
         })
         socket.on('watch-board', _id => {
-            console.log(_id)
+            console.log('watch-board-id', _id)
             if (socket.currBoard === _id) return
             if (socket.currBoard) {
                 socket.leave(socket.currBoard)
