@@ -77,7 +77,6 @@ async function removeBoard(req, res) {
 async function addActivity(req, res) {
   try {
     const activity = req.body
-    // console.log(activity)
     await boardService.addActivity(activity)
     res.status(200).send()
   } catch (err) {
