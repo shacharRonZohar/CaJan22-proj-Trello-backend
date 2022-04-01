@@ -97,7 +97,7 @@ async function addActivity(activity) {
     const id = ObjectId(activity.ids.boardId)
     const collection = await dbService.getCollection('board')
     console.log('from service', activity)
-    return collection.updateOne({ _id: id }, { $push: { activities: activity } })
+    return await collection.updateOne({ _id: id }, { $push: { activities: activity } })
   } catch (err) {
     logger.error(`cannot add activity ${activity.id}`, err)
     throw err
