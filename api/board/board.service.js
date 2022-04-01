@@ -9,6 +9,7 @@ module.exports = {
   getById,
   add,
   update,
+  addActivity
 }
 
 async function query(filterBy) {
@@ -91,6 +92,18 @@ async function update(board) {
   }
 }
 
+async function addActivity(activity) {
+  try {
+    const id = ObjectId(activity.ids.boardId)
+    // const board = await getById(activity.ids.boardId)
+    const collection = await dbService.getCollection('board')
+    collection.updateOne({ _id: id }, { $push: { activities: activity } })
+
+  } catch (err) {
+    logger.error(`cannot add activity ${activity.id}`, err)
+    throw err
+  }
+}
 function _buildCriteria(filterBy) {
   const criteria = {}
 

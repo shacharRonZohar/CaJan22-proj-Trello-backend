@@ -7,6 +7,7 @@ module.exports = {
   addBoard,
   updateBoard,
   removeBoard,
+  addActivity
 }
 
 // LIST
@@ -69,5 +70,18 @@ async function removeBoard(req, res) {
   } catch (err) {
     logger.error('Failed to remove board', err)
     res.status(500).send({ err: 'Failed to remove board' })
+  }
+}
+
+
+async function addActivity(req, res) {
+  try {
+    const activity = req.body
+    // console.log(activity)
+    await boardService.addActivity(activity)
+    res.status(200).send()
+  } catch (err) {
+    logger.error('Failed to add activity', err)
+    res.status(500).send({ err: 'Failed to add activity' })
   }
 }
