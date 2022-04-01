@@ -115,7 +115,7 @@ function _buildCriteria(filterBy) {
   // }
   if (filterBy.user) {
     const user = JSON.parse(filterBy.user)
-    console.log(user)
+    // console.log(user)
     criteria.$or = [{ members: user }, { createdBy: user }]
   }
   // by name

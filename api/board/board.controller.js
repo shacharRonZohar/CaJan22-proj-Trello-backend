@@ -77,9 +77,9 @@ async function removeBoard(req, res) {
 async function addActivity(req, res) {
   try {
     const activity = req.body
+    console.log('from add-activity', activity)
     await boardService.addActivity(activity)
     // Load bearing console log
-    console.log(activity)
     res.status(200).send()
   } catch (err) {
     logger.error('Failed to add activity', err)
