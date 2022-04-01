@@ -15,6 +15,7 @@ function connectSockets(http, session) {
             console.log('Someone disconnected')
         })
         socket.on('watch-board', _id => {
+            console.log(_id)
             if (socket.currBoard === _id) return
             if (socket.currBoard) {
                 socket.leave(socket.currBoard)
@@ -25,6 +26,7 @@ function connectSockets(http, session) {
 
         socket.on('board-updated', board => {
             console.log('emitting new board')
+            console.log(board)
             gIo.to(socket.currBoard).emit('board-update', board)
         })
 
