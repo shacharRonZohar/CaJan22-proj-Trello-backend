@@ -1333,3 +1333,16 @@
 01/04/2022, 17:46:01 - INFO - Server is running on port: 3030
 01/04/2022, 17:47:10 - INFO - Server is running on port: 3030
 01/04/2022, 17:49:46 - INFO - Server is running on port: 3030
+01/04/2022, 19:13:10 - INFO - Server is running on port: 3030
+01/04/2022, 19:13:40 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+01/04/2022, 19:13:40 - DEBUG - auth.service - login with username: guest@ca.com
+01/04/2022, 19:13:41 - INFO - Req from: Guest
+01/04/2022, 19:13:45 - INFO - Req from: Guest
+01/04/2022, 19:13:51 - DEBUG - auth.service - login with username: guest@ca.com
+01/04/2022, 19:13:52 - INFO - Req from: Guest
+01/04/2022, 19:13:57 - INFO - Req from: Guest
+01/04/2022, 19:14:55 - INFO - Server is running on port: 3030
+01/04/2022, 19:17:23 - INFO - Server is running on port: 3030
+01/04/2022, 19:18:15 - INFO - Server is running on port: 3030
+01/04/2022, 19:24:42 - INFO - Server is running on port: 3030
+01/04/2022, 19:25:11 - INFO - Server is running on port: 3030
