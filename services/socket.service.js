@@ -30,6 +30,11 @@ function connectSockets(http, session) {
             gIo.to(socket.currBoard).emit('board-update', board)
         })
 
+        socket.on('boards-updated', () => {
+            console.log('Emitting new boards')
+            gIo.emit('boards-updated')
+        })
+
         // socket.on('chat topic', topic => {
         //     if (socket.myTopic === topic) return
         //     if (socket.myTopic) {
