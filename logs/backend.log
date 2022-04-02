@@ -1350,3 +1350,50 @@
 01/04/2022, 21:01:05 - INFO - Server is running on port: 3030
 01/04/2022, 21:56:29 - INFO - Server is running on port: 3030
 01/04/2022, 22:38:46 - INFO - Server is running on port: 3030
+02/04/2022, 10:27:26 - INFO - Server is running on port: 3030
+02/04/2022, 10:42:47 - DEBUG - auth.service - login with username: guest@ca.com
+02/04/2022, 10:42:48 - INFO - Req from: Guest
+02/04/2022, 10:43:02 - INFO - Req from: Guest
+02/04/2022, 11:11:04 - INFO - Req from: Guest
+02/04/2022, 11:15:02 - INFO - Req from: Guest
+02/04/2022, 11:16:06 - INFO - Req from: Guest
+02/04/2022, 11:16:33 - INFO - Req from: Guest
+02/04/2022, 11:17:49 - INFO - Req from: Guest
+02/04/2022, 11:18:07 - INFO - Req from: Guest
+02/04/2022, 11:19:27 - INFO - Req from: Guest
+02/04/2022, 11:21:02 - INFO - Req from: Guest
+02/04/2022, 11:24:43 - INFO - Req from: Guest
+02/04/2022, 11:25:39 - INFO - Req from: Guest
+02/04/2022, 11:25:58 - INFO - Req from: Guest
+02/04/2022, 11:26:18 - INFO - Req from: Guest
+02/04/2022, 11:26:41 - INFO - Req from: Guest
+02/04/2022, 11:27:09 - INFO - Req from: Guest
+02/04/2022, 11:31:30 - INFO - Req from: Guest
+02/04/2022, 11:31:45 - INFO - Req from: Guest
+02/04/2022, 11:35:45 - INFO - Req from: Guest
+02/04/2022, 11:36:04 - INFO - Req from: Guest
+02/04/2022, 11:36:57 - INFO - Req from: Guest
+02/04/2022, 11:37:03 - INFO - Req from: Guest
+02/04/2022, 11:37:18 - INFO - Req from: Guest
+02/04/2022, 11:38:36 - INFO - Req from: Guest
+02/04/2022, 11:39:25 - INFO - Req from: Guest
+02/04/2022, 11:39:30 - INFO - Req from: Guest
+02/04/2022, 11:40:16 - INFO - Req from: Guest
+02/04/2022, 11:40:37 - INFO - Req from: Guest
+02/04/2022, 11:40:41 - INFO - Req from: Guest
+02/04/2022, 11:45:20 - INFO - Req from: Guest
+02/04/2022, 11:46:37 - INFO - Req from: Guest
+02/04/2022, 11:46:55 - INFO - Req from: Guest
+02/04/2022, 11:47:22 - INFO - Req from: Guest
+02/04/2022, 11:47:47 - INFO - Req from: Guest
+02/04/2022, 11:47:56 - INFO - Req from: Guest
+02/04/2022, 11:49:10 - INFO - Req from: Guest
+02/04/2022, 11:50:01 - INFO - Req from: Guest
+02/04/2022, 11:51:32 - INFO - Req from: Guest
+02/04/2022, 11:51:49 - INFO - Req from: Guest
+02/04/2022, 11:57:21 - INFO - Req from: Guest
+02/04/2022, 11:58:53 - INFO - Req from: Guest
+02/04/2022, 11:59:07 - INFO - Req from: Guest
+02/04/2022, 12:11:21 - INFO - Req from: Guest
+02/04/2022, 12:13:29 - INFO - Req from: Guest
+02/04/2022, 12:16:02 - INFO - Server is running on port: 3030
