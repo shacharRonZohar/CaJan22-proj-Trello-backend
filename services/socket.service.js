@@ -11,9 +11,11 @@ function connectSockets(http, session) {
     })
     gIo.on('connection', socket => {
         console.log('New socket', socket.id)
+
         socket.on('disconnect', socket => {
             console.log('Someone disconnected')
         })
+
         socket.on('watch-board', _id => {
             console.log('watch-board-id', _id)
             if (socket.currBoard === _id) return
@@ -26,7 +28,6 @@ function connectSockets(http, session) {
 
         socket.on('board-updated', board => {
             console.log('emitting new board')
-            console.log(board)
             gIo.to(socket.currBoard).emit('board-update', board)
         })
 
@@ -34,42 +35,6 @@ function connectSockets(http, session) {
             console.log('Emitting new boards')
             gIo.emit('boards-updated')
         })
-
-        // socket.on('chat topic', topic => {
-        //     if (socket.myTopic === topic) return
-        //     if (socket.myTopic) {
-        //         socket.leave(socket.myTopic)
-        //     }
-        //     socket.join(topic)
-        //     socket.myTopic = topic
-        // })
-        // socket.on('chat newMsg', msg => {
-        //     console.log('Emitting Chat msg', msg)
-        //     // emits to all sockets:
-        //     // gIo.emit('chat addMsg', msg)
-        //     // emits only to sockets in the same room
-        //     gIo.to(socket.myTopic).emit('chat addMsg', msg)
-        // })
-        // socket.on('user-watch', userId => {
-        //     socket.join('watching:' + userId)
-        // })
-        // socket.on('set-user-socket', userId => {
-        //     logger.debug(`Setting (${socket.id}) socket.userId = ${userId}`)
-        //     socket.userId = userId
-        // })
-        // socket.on('unset-user-socket', () => {
-        //     delete socket.userId
-        // })
-        // let timer = null
-        // socket.on('chat-userTyping', fullname => {
-        //     // Maybe TODO: use actual debounce
-        //     clearTimeout(timer)
-        //     setTimeout(() => {
-        //         gIo.to(socket.myTopic).emit('user-is-typing', '')
-        //     }, 3000)
-        //     gIo.to(socket.myTopic).emit('user-is-typing', fullname)
-        // })
-
     })
 }
 

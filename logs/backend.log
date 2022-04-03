@@ -1413,3 +1413,25 @@
 02/04/2022, 14:55:27 - INFO - Req from: Shachar Ron Zohar
 02/04/2022, 14:55:37 - INFO - Req from: Shachar Ron Zohar
 02/04/2022, 14:56:40 - INFO - Server is running on port: 3030
+02/04/2022, 16:41:35 - DEBUG - auth.service - login with username: guest@ca.com
+02/04/2022, 16:41:37 - INFO - Req from: Guest
+02/04/2022, 16:41:49 - INFO - Req from: Guest
+02/04/2022, 16:42:17 - INFO - Req from: Guest
+02/04/2022, 16:42:21 - INFO - Req from: Guest
+02/04/2022, 16:48:55 - INFO - Req from: Guest
+02/04/2022, 16:50:40 - INFO - Req from: Guest
+02/04/2022, 16:50:45 - INFO - Req from: Guest
+02/04/2022, 17:00:46 - INFO - Req from: Guest
+02/04/2022, 17:00:52 - INFO - Req from: Guest
+02/04/2022, 17:07:44 - INFO - Req from: Guest
+02/04/2022, 17:07:48 - INFO - Req from: Guest
+02/04/2022, 17:15:11 - INFO - Req from: Guest
+02/04/2022, 17:15:15 - INFO - Req from: Guest
+02/04/2022, 18:45:45 - INFO - Server is running on port: 3030
+02/04/2022, 18:48:20 - INFO - Server is running on port: 3030
+02/04/2022, 18:51:34 - INFO - Server is running on port: 3030
+03/04/2022, 11:06:22 - INFO - Server is running on port: 3030
+03/04/2022, 11:06:34 - DEBUG - auth.service - login with username: guest@ca.com
+03/04/2022, 11:06:35 - INFO - Req from: Guest
+03/04/2022, 11:06:39 - INFO - Req from: Guest
+03/04/2022, 11:14:45 - INFO - Server is running on port: 3030
