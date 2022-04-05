@@ -28,7 +28,8 @@ function connectSockets(http, session) {
 
         socket.on('board-updated', board => {
             console.log('emitting new board')
-            gIo.to(socket.currBoard).emit('board-update', board)
+            socket.broadcast.to(socket.currBoard).emit('board-update', board)
+            // gIo.to(socket.currBoard).emit('board-update', board)
         })
 
         socket.on('boards-updated', () => {

@@ -1500,3 +1500,34 @@
 04/04/2022, 17:33:25 - INFO - Req from: Guest
 04/04/2022, 17:48:41 - INFO - Server is running on port: 3030
 04/04/2022, 17:55:26 - INFO - Server is running on port: 3030
+04/04/2022, 18:14:31 - DEBUG - auth.service - login with username: guest@ca.com
+04/04/2022, 18:14:32 - INFO - Req from: Guest
+04/04/2022, 18:14:37 - INFO - Req from: Guest
+04/04/2022, 20:10:56 - INFO - Req from: Guest
+04/04/2022, 20:11:00 - DEBUG - auth.service - login with username: guest@ca.com
+04/04/2022, 20:11:01 - INFO - Req from: Guest
+04/04/2022, 20:11:15 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+04/04/2022, 20:11:15 - DEBUG - auth.service - login with username: guest@ca.com
+04/04/2022, 20:11:16 - INFO - Req from: Guest
+04/04/2022, 20:11:20 - INFO - Req from: Guest
+04/04/2022, 20:11:34 - DEBUG - auth.service - login with username: rzshachar@gmail.com
+04/04/2022, 20:11:36 - INFO - Req from: Shachar Ron Zohar
+05/04/2022, 10:16:22 - INFO - Server is running on port: 3030
+05/04/2022, 10:16:52 - DEBUG - auth.service - login with username: guest@ca.com
+05/04/2022, 10:16:54 - INFO - Req from: Guest
+05/04/2022, 10:16:57 - INFO - Req from: Guest
+05/04/2022, 11:05:17 - INFO - Server is running on port: 3030
+05/04/2022, 11:06:57 - INFO - Server is running on port: 3030
+05/04/2022, 11:07:56 - INFO - Server is running on port: 3030
+05/04/2022, 11:09:35 - INFO - Server is running on port: 3030
+05/04/2022, 11:09:47 - DEBUG - auth.service - login with username: guest@ca.com
+05/04/2022, 11:09:49 - INFO - Req from: Guest
+05/04/2022, 11:09:55 - INFO - Req from: Guest
+05/04/2022, 11:10:43 - INFO - Req from: Guest
+05/04/2022, 11:12:08 - INFO - Req from: Guest
+05/04/2022, 11:12:19 - INFO - Req from: Guest
+05/04/2022, 11:13:49 - INFO - Server is running on port: 3030
+05/04/2022, 11:14:27 - INFO - Server is running on port: 3030
+05/04/2022, 11:14:28 - INFO - Server is running on port: 3030
+05/04/2022, 11:15:21 - INFO - Server is running on port: 3030
+05/04/2022, 11:32:43 - INFO - Server is running on port: 3030
